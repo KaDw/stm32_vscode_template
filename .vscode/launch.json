@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}/build",
+            "executable": "f4_template",
+            "name": "OpenOCD",
+            "device": "STM32F405RG",
+            "svdFile": "C:/GNU_Tools_ARM_Embedded/cmsis/STMicroelectronics_CMSIS_SVD/STM32F405.svd",
+            "searchDir": [
+                "C:/GNU_Tools_ARM_Embedded/openocd/st_scripts"
+            ],
+            "configFiles": [
+                "${workspaceRoot}/f4_template_Debug.cfg"
+            ]
+        }
+    ]
+}
