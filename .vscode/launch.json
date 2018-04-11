@@ -5,7 +5,7 @@
             "type": "cortex-debug",
             "request": "launch",
             "servertype": "openocd",
-            "cwd": "${workspaceRoot}/build",
+            "cwd": "${workspaceFolder}/build",
             "executable": "f4_template",
             "name": "OpenOCD",
             "device": "STM32F405RG",
@@ -14,8 +14,9 @@
                 "C:/GNU_Tools_ARM_Embedded/openocd/st_scripts"
             ],
             "configFiles": [
-                "${workspaceRoot}/f4_template_Debug.cfg"
+                "${workspaceFolder}/f4_template_Debug.cfg"
             ]
+            
         }
     ]
 }
